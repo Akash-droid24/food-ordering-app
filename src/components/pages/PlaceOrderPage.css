@@ -1,0 +1,28 @@
+.place-order-page {
+    padding: 20px;
+  }
+  
+  .payment-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-methods label {
+    margin-bottom: 10px;
+  }
+  
+  .complete-order-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  

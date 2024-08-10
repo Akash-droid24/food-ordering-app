@@ -1,0 +1,27 @@
+.confirm-order-page {
+  padding: 20px;
+}
+
+.order-summary {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li {
+  margin-bottom: 10px;
+}
+
+.place-order-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+}

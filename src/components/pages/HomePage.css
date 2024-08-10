@@ -1,0 +1,50 @@
+.home-page {
+    padding: 20px;
+  }
+  
+  .search-section {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .food-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .food-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1 1 calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .food-card:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .food-card {
+      flex: 1 1 calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .food-card {
+      flex: 1 1 100%;
+    }
+  }
+  

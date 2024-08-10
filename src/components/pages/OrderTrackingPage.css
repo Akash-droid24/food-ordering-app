@@ -1,0 +1,17 @@
+.order-tracking-page {
+    padding: 40px 20px;
+  }
+  
+  .order-tracking-status, .order-history {
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+  }
+  
+  .order-tracking-status p, .order-history p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

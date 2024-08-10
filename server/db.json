@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "3499",
+      "email": "freakdroid24@gmail.com",
+      "password": "Rockingat*240",
+      "confirmPassword": "Rockingat*240"
+    }
+  ],
+  "foodItems": [],
+  "orders": []
+}

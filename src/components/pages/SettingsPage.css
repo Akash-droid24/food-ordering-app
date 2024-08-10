@@ -1,0 +1,51 @@
+.settings-page {
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-button {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.edit-button.green {
+  background-color: green;
+}
+
+.settings-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.additional-links {
+  margin-top: 20px;
+}
+
+.additional-links a {
+  display: block;
+  margin-bottom: 10px;
+  color: #007bff;
+}
