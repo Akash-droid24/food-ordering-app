@@ -63,6 +63,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
+**Test the Application Flow**
+**Registration Page:** Open http://localhost:4200 in your browser. This should redirect you to the Registration page. Try registering a new user. Ensure that all validation rules work and that the user data is stored in db.json.
+
+**Login Page:** After registration, you should be redirected to the Login page. Test the login functionality, including field validation and login verification.
+**Home Page:** Upon successful login, you should be redirected to the Home page. Test the food listing, searching, and modal interactions for adding items to the cart.
+**Settings Page:** Navigate to the Settings page and test the user profile update, address management, and payment details. Make sure the data is correctly retrieved from and sent to the db.json file.
+**Confirm Order Page**: Add items to the cart, then proceed to the Confirm Order page. Verify that all cart items are displayed and that placing an order works as expected.
+**Order Tracking Page**: After placing an order, navigate to the Order Tracking page. Test the order tracking and history functionality.
+**Logout:** Test the logout functionality by clicking the logout button in the Navbar. Ensure that all session data is cleared, and you are redirected to the Login page.
+5. **Check the db.json**
+Inspect the db.json file after each action to ensure that data is being stored and updated correctly.
+6. Testing Edge Cases
+**Invalid Inputs:** Try registering with invalid or missing data.
+**Empty Cart:** Attempt to confirm an order with an empty cart.
+**Unauthorized Access:** Try accessing pages like Settings or Order Tracking without logging in.
+**Session Expiry:** Manually clear local storage or session data and test the app’s behavior.
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
